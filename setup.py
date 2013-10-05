@@ -67,8 +67,8 @@ setup (
       'accelerate': ["wsaccel>=0.6.2"],
       'compress': ["python-snappy>=0.5", "lz4>=0.2.1"]
    },
-   package_dir = {'': 'autobahn'},
    packages = ['autobahn'],
+   package_dir = {'autobahn': './autobahn/autobahn'},
    zip_safe = False,
    ## http://pypi.python.org/pypi?%3Aaction=list_classifiers
    ##
